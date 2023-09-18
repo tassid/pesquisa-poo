@@ -1,9 +1,9 @@
 // Classe base (superclasse)
-public class Animal{
+public class Animal {
     public string Nome { get; set; }
     public int Idade { get; set; }
 
-    public void EmitirSom(){
+    public void EmitirSom() {
         Console.WriteLine("O animal emite um som.");
     }
 }
@@ -15,7 +15,7 @@ public class Cachorro : Animal{
     }
 }
 
-public class BeijaFlor : Animal{
+public class BeijaFlor : Animal {
     public void Voar(){
         Console.WriteLine("O beija-flor voa rapidamente.");
     }
